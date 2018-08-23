@@ -1,4 +1,4 @@
-# Russian Rulette (English)
+# Russian Roulette (English)
 
 This is a simple program for fun.
 why? idk.
