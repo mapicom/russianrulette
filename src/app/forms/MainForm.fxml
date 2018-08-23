@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="168" prefWidth="352" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="16" prefHeight="47.8828125" prefWidth="214.388671875" styleClass="label " text="1. Загадывай число&#10;2. Жми &quot;Крутить барабан&quot;" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="16" layoutY="72" prefColumnCount="12" prefHeight="32" prefWidth="224" promptText="Впиши число здесь (1-6)" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Segoe UI" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="16" layoutY="120" prefHeight="32" prefWidth="224" styleClass="button " text="Крутить барабан" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="counter" layoutX="280" layoutY="32" prefHeight="88" prefWidth="40" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="83"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-counter" visible="1"/>
+  </children>
+</AnchorPane>
