@@ -13,7 +13,6 @@ class MainForm extends AbstractForm
     function doButtonAction(UXEvent $e = null)
     {    
         if ($this->edit->text >= 1 && $this->edit->text <= 6) {
-            
             $this->edit->editable = false;
             $this->button->enabled = false;
             $GLOBALS['a'] = $this->edit->text;
