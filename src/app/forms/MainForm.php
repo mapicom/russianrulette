@@ -17,7 +17,7 @@ class MainForm extends AbstractForm
             $this->button->enabled = false;
             $GLOBALS['a'] = $this->edit->text;
             $this->timer->enable = true;
-            $media = Media::open('sound/pole.mp3', true);
+            $media = Media::open('res://.data/sound/pole.mp3', true);
         }
     }
 

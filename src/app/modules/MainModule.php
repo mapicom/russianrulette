@@ -21,11 +21,11 @@ class MainModule extends AbstractModule
         } else {
             $this->timer->enable = false;
             if ($GLOBALS['counter'] == $GLOBALS['a']) {
-                $media = Media::open('sound/shoot.mp3', true);
+                $media = Media::open('res://.data/sound/shoot.mp3', true);
                 $this->timerAlt->enable = true;
                 
             } else {
-                $media = Media::open('sound/click.mp3', true);
+                $media = Media::open('res://.data/sound/click.mp3', true);
                 $this->timerAlt->enable = true;
             }
         }
