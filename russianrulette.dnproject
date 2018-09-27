@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Funtazoid" authorOS="Windows 10" createdAt="1535037073720" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="russianrulette" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1535045698352">
+<project author="Funtazoid" authorOS="Windows 10" createdAt="1535037073720" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="russianrulette" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1537443558897">
   <tree>
     <expanded>
     <path src=""/>
@@ -12,8 +12,8 @@
   </tree>
   <openedFiles>
   <file src="russianrulette.dnproject"/>
-    <file src="src/app/modules/MainModule.php"/>
-    <file selected="1" src="src/app/forms/MainForm.php"/>
+    <file selected="1" src="src/app/modules/MainModule.php"/>
+    <file src="src/app/forms/MainForm.php"/>
   </openedFiles>
   <files/>
   <behaviours>

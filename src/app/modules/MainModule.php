@@ -22,7 +22,7 @@ class MainModule extends AbstractModule
             $this->timer->enable = false;
             if ($GLOBALS['counter'] == $GLOBALS['a']) {
                 $media = Media::open('res://.data/sound/shoot.mp3', true);
-                $this->timerAlt->enable = true;
+                $this->shutdown->enable = true;
                 
             } else {
                 $media = Media::open('res://.data/sound/click.mp3', true);
@@ -37,7 +37,26 @@ class MainModule extends AbstractModule
      */
     function doTimerAltAction(ScriptEvent $e = null)
     {    
-        app()->shutdown();
+        // reset values
+        $GLOBALS['timer_counter'] = 0;
+        $GLOBALS['counter'] = 0;
+        $GLOBALS['a'] = 0;
+        
+        $this->edit->editable = true;
+        $this->button->enabled = true;
+        $this->counter->text = "0";
+        $this->timer->interval = 10;
+        $this->edit->text = "";
+        $this->timer->enable = false;
+        $this->timerAlt->enable = false;
     }
+    
+    /**
+     * @event shutdown.action
+     */
+     function doShutdownAction(ScriptEvent $e = null)
+     {
+         app()->shutdown();
+     } 
 
 }
